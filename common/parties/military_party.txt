@@ -1,0 +1,417 @@
+﻿# Fallback party for Armed Forces
+
+military_party = {
+	color = { 132 100 53 }
+	name = {
+		first_valid = {
+			triggered_desc = {
+				desc = party_ppp_mesrutiyet
+					trigger = {
+						exists = c:TUR
+						THIS = c:TUR
+					}
+				}
+				triggered_desc = {
+					desc = party_ppp_bewegung
+					trigger = {
+						exists = c:SWI
+						THIS = c:SWI
+					}
+				}
+			triggered_desc = {
+				desc = party_ppp_weermacht
+				trigger = {
+					exists = c:NET
+					THIS = c:NET
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_partij_van_strijders
+				trigger = {
+					exists = c:BEL
+					THIS = c:BEL
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_unione_patriota
+				trigger = {
+					country_has_primary_culture = cu:north_italian
+					country_has_primary_culture = cu:south_italian
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_national_league_party
+				trigger = {
+					exists = c:IRE
+					THIS = c:IRE
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_movimiento_nacionalista_revolucionario
+				trigger = {
+					exists = c:BOL
+					THIS = c:BOL
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_alianca_nacional
+				trigger = {
+					OR = {
+						AND = {
+							exists = c:BRZ
+							THIS = c:BRZ
+						}
+						AND = {
+							exists = c:POR
+							THIS = c:POR
+						}
+					}
+				}
+			}
+            triggered_desc = {
+				desc = party_ppp_36_party
+				trigger = {
+					exists = c:TEX
+					THIS = c:TEX
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_usaf_party
+				trigger = {
+					exists = c:USA
+					THIS = c:USA
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_canadian_army
+				trigger = {
+					exists = c:CAN
+					THIS = c:CAN
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_avanzada_nacional
+				trigger = {
+					exists = c:CHL
+					THIS = c:CHL
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_legion_civica
+				trigger = {
+					exists = c:ARG
+					THIS = c:ARG
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_partido_patriota
+				trigger = {
+                   			OR = {
+                                    country_has_primary_culture = cu:caribeno
+                        			country_has_primary_culture = cu:mexican
+									country_has_primary_culture = cu:central_american
+									country_has_primary_culture = cu:north_andean
+									AND = {
+										exists = c:URU
+										THIS = c:URU
+									}
+									AND = {
+										exists = c:PRG
+										THIS = c:PRG
+									}
+									AND = {
+										exists = c:PRU
+										THIS = c:PRU
+									}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_british_defence_league
+				trigger = {
+					exists = c:GBR
+					THIS = c:GBR
+				}
+			}
+			triggered_desc = {
+				desc = party_true_peoples_party
+				trigger = {
+					exists = c:MON
+					THIS = c:MON
+				}
+			}
+			triggered_desc = {
+				desc = party_national_party
+				trigger = {
+					exists = c:SER
+					THIS = c:SER
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_legitimistes
+				trigger = {
+					exists = c:FRA
+					THIS = c:FRA
+					has_law = law_type:law_monarchy
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_boulangiste
+				trigger = {
+					exists = c:FRA
+					THIS = c:FRA
+					NOT = { has_law = law_type:law_monarchy }
+				}
+			}
+			triggered_desc = {
+				desc = party_imperial_clan_party
+				trigger = {
+					exists = c:CHI
+					THIS = c:CHI
+					has_law = law_type:law_monarchy
+				}
+			}
+			triggered_desc = {
+				desc = party_russian_assembly
+				trigger = {
+					exists = c:RUS
+					THIS = c:RUS
+					has_law = law_type:law_monarchy
+				}
+			}
+			triggered_desc = {
+				desc = party_russian_all_military_union
+				trigger = {
+					exists = c:RUS
+					THIS = c:RUS
+					NOT = { has_law = law_type:law_monarchy }
+				}
+			}
+			triggered_desc = {
+				desc = party_imperial_way_party
+				trigger = {
+					exists = c:JAP
+					THIS = c:JAP
+					has_law = law_type:law_monarchy
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_patriotic_union
+				trigger = {
+					country_has_primary_culture = cu:spanish
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_deutschsoziale
+				trigger = {
+					OR = {
+						country_has_primary_culture = cu:north_german
+						country_has_primary_culture = cu:south_german
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_military
+				trigger = {
+					always = yes
+				}
+			}
+		}
+	}
+	icon = {
+		default = "/gfx/interface/icons/political_parties/military.dds"
+	}
+	# THIS IS RUN ONLY ONCE AT GAME START
+	valid_for_country = {
+		always = yes
+	}
+	available_for_interest_group = {
+		owner = {
+			country_has_voting_franchise = yes
+			ig:ig_armed_forces = {
+				is_marginal = no
+			}
+		}
+	}
+	
+	# Root - IG considering joining
+	# scope:number - the number of IGs that would join this party before the root IG
+	join_weight = {
+		value = {
+			value = -5
+			desc = "base_value"
+		}
+		if = { # nobody will join if the armed forces don't join
+			limit = {
+				NOT = { is_interest_group_type = ig_armed_forces }
+				OR = {
+					NOT = { exists = owner.py:military_party }
+					AND = {
+						exists = owner.py:military_party
+						owner = {
+							ig:ig_armed_forces = {
+								NOT = { is_member_of_party = owner.py:military_party }
+							}
+						}
+					}
+				}
+			}
+			add = {
+				value = -20
+				desc = "from_no_army_in_party" # this should probably never actually display in game because the party won't exist
+			}
+		}
+		if = { # a party for powerful soldiers
+			limit = {
+				is_interest_group_type = ig_armed_forces
+				is_powerful = yes
+			}
+			add = {
+				value = 10
+				desc = "from_strong_military"
+			}
+		}
+		if = { # jingoists like the military party
+			limit = {
+				leader = { has_ideology = ideology_jingoist_leader }
+			}
+			add = {
+				value = 10
+				desc = "from_jingoist"
+			}
+		}
+		if = { # conservatives like police
+			limit = {
+				OR = {
+					has_paternalist_ideology = yes
+					has_ideology = ideology_patriotic
+				}
+				owner = {
+					has_technology_researched = law_enforcement
+					has_law = law_type:law_no_police
+				}
+			}
+			add = {
+				value = 3
+				desc = "from_no_police"
+			}
+		}
+		if = { # opposition to peasant levies
+			limit = {
+				OR = {
+					has_ideology = ideology_jingoist
+					has_ideology = ideology_particularist
+					has_ideology = ideology_sikh_moralist
+					leader = {
+						OR = {
+							has_ideology = ideology_fascist
+							has_ideology = ideology_anarchist
+							has_ideology = ideology_pacifist
+							has_ideology = ideology_jingoist_leader
+						}
+					}
+				}
+				owner = {
+					has_law = law_type:law_peasant_levies
+				}
+			}
+			add = {
+				value = 3
+				desc = "from_peasant_levies"
+			}
+		}
+		if = { # loyalist-proletarian alliance for tax reform
+			limit = {
+				OR = {
+					has_ideology = ideology_proletarian
+					leader = {
+						has_ideology = ideology_social_democrat
+					}
+					has_ideology = ideology_loyalist
+				}
+				owner = {
+					NOR = {
+						has_law = law_type:law_proportional_taxation
+						has_law = law_type:law_per_capita_based_taxation
+						has_law = law_type:law_graduated_taxation
+					}
+				}
+			}
+			add = {
+				value = 3
+				desc = "from_no_graduated_taxation"
+			}
+		}
+		if = { # loyalist-meritocratic alliance for tax reform
+			limit = {
+				OR = {
+					has_ideology = ideology_meritocratic
+					AND = {
+						has_ideology = ideology_loyalist
+						owner = {
+							NOT = { has_law = law_type:law_graduated_taxation }
+						}
+					}
+				}
+				owner = {
+					NOR = {
+						has_law = law_type:law_proportional_taxation
+						has_law = law_type:law_per_capita_based_taxation
+					}
+				}
+			}
+			add = {
+				value = 3
+				desc = "from_no_proportional_or_per_capita_tax"
+			}
+		}
+		if = {
+			limit = {
+				is_interest_group_type = ig_armed_forces
+				is_powerful = yes
+			}
+			multiply = {
+				value = 2
+				desc = "from_archetype_party"
+			}
+		}
+		if = {
+			limit = {
+				scope:number = 1
+				is_powerful = no
+				is_marginal = no
+			}
+			multiply = {
+				value = 2
+				desc = "from_influential_supporting_member"
+			}
+		}
+		else_if = {
+			limit = {
+				scope:number = 2
+			}
+			multiply = {
+				value = 0.5
+				desc = "from_two_prior_members"
+			}
+		}
+		else_if = {
+			limit = {
+				scope:number = 3
+			}
+			multiply = {
+				value = 0.25
+				desc = "from_three_prior_members"
+			}
+		}
+		else_if = {
+			limit = {
+				scope:number > 3
+			}
+			multiply = {
+				value = 0.1
+				desc = "from_more_than_three_prior_members"
+			}
+		}
+	}
+}

@@ -1,1 +1,1 @@
-# Party Pack Plus - Github
+# PartyPackPlus

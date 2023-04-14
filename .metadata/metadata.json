@@ -1,0 +1,13 @@
+{
+  "name" : "Party Pack Plus",
+  "id" : "2904592086",
+  "version" : "0.2.7",
+  "supported_game_version" : "1.2.*",
+  "picture": "thumbnail.png",
+  "short_description" : "Adds localized party names for more countries!",
+  "tags" : ["Historical"],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
