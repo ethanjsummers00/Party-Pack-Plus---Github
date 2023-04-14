@@ -310,13 +310,13 @@ radical_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_progressive_dissidence
+				desc = party_ppp_progressive_dissidence
 				trigger = {
 					country_has_primary_culture = cu:portuguese
 				}
 			}
 			triggered_desc = {
-				desc = party_progressive_league
+				desc = party_ppp_partido_reforma_nacional
 				trigger = {
 					country_has_primary_culture = cu:brazilian
 				}

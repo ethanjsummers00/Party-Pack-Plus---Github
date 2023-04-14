@@ -51,8 +51,8 @@ liberal_party = {
 				desc = party_ppp_parti_liberal_quebec
 				trigger = {
 					country_has_primary_culture = cu:franco_canadian
-					NOT = { exists = c:CAN
-							THIS = c:CAN }
+					NOT = { THIS = c:CAN }
+					NOT = { exists = c:CAN }
 				}
 			}
 			

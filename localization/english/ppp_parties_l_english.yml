@@ -20,6 +20,9 @@
  party_ppp_teceddut:0 "Teceddüt Partisi"
  party_ppp_milliyetci:0 "Milliyetçi Hareket Partisi"
  party_ppp_national_front:0 "Nationale Front"
+ party_ppp_dnsap:0 "Danmarks Nationalsocialistiske Arbejderparti"
+ party_ppp_national_league_of_sweden:0 "Sveriges nationella förbund"
+ party_ppp_nasjonal_samling:0 "Nasjonal Samling"
 
  #conservative_party
  party_ppp_can_conservative_party:0 "Conservative Party of Canada"
@@ -49,6 +52,10 @@
  party_ppp_committee_of_union_and_progress:0 "İttihat ve Terakki"
  party_ppp_demokrat_parti:0 "Demokrat Parti"
  party_ppp_konservativ_christlichsoziale:0 "Konservativ-Christlichsoziale Volkspartei"
+ party_ppp_hojre:0 "Højre"
+ party_ppp_konservative_folkeparti:0 "Konservative Folkeparti"
+ party_ppp_lantmanna_party:0 "Lantmannapartiet"
+ party_ppp_samlingspartiet:0 "Moderata samlingspartiet"
 
  #free_trade_party
  party_ppp_unionist_party:0 "Unionist Party"

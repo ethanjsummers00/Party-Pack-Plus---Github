@@ -83,14 +83,14 @@
 				}
 			}
 			triggered_desc = {
-				desc = party_nasjonal_samling
+				desc = party_ppp_nasjonal_samling
 				trigger = {
 					exists = c:NOR
 					THIS = c:NOR
 				}
 			}
 			triggered_desc = {
-				desc = party_dnsap
+				desc = party_ppp_dnsap
 				trigger = {
 					exists = c:DEN
 					THIS = c:DEN
@@ -104,7 +104,7 @@
 				}
 			}
 			triggered_desc = {
-				desc = party_national_league_of_sweden
+				desc = party_ppp_national_league_of_sweden
 				trigger = {
 					exists = c:SWE
 					THIS = c:SWE

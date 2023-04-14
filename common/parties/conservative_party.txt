@@ -162,10 +162,18 @@ conservative_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_lantmanna_party
+				desc = party_ppp_lantmanna_party
 				trigger = {
 					exists = c:SWE
 					THIS = c:SWE
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_samlingspartiet
+				trigger = {
+					exists = c:SWE
+					THIS = c:SWE
+					has_law = law_type:law_universal_suffrage
 				}
 			}
 			triggered_desc = {
@@ -300,9 +308,16 @@ conservative_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_hojre
+				desc = party_ppp_hojre
 				trigger = {
 					country_has_primary_culture = cu:danish
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_konservative_folkeparti
+				trigger = {
+					country_has_primary_culture = cu:danish
+					has_law = law_type:law_universal_suffrage
 				}
 			}
 			triggered_desc = {
