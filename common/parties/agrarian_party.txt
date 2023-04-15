@@ -156,24 +156,28 @@ agrarian_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_farmers_party
+				desc = party_ppp_farmers_party
 				trigger = {
-					exists = c:NOR
-					THIS = c:NOR
+					country_has_primary_culture = cu:norwegian
 				}
 			}
 			triggered_desc = {
-				desc = party_free_peoples_party
+				desc = party_ppp_free_peoples_party
 				trigger = {
-					exists = c:DEN
-					THIS = c:DEN
+					country_has_primary_culture = cu:danish
 				}
 			}
 			triggered_desc = {
-				desc = party_farmers_league
+				desc = party_ppp_centerpartiet
 				trigger = {
-					exists = c:SWE
-					THIS = c:SWE
+					country_has_primary_culture = cu:swedish
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_farmers_league
+				trigger = {
+					country_has_primary_culture = cu:swedish
 				}
 			}
 			triggered_desc = {

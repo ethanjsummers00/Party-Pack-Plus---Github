@@ -82,6 +82,10 @@
  party_ppp_renaissance_nationale:0 "Renaissance Nationale"
  party_ppp_hurriyet_partisi:0 "Hürriyet Partisi"
  party_ppp_der_shweiz:0 "Liberale Partei der Schweiz"
+ party_ppp_frihandelspartiet:0 "Frihandelspartiet"
+ party_ppp_erhvervspartiet:0 "Erhvervspartiet"
+ party_ppp_reform_venstre:0 "Reform Venstre"
+ party_ppp_free_minded_venstre:0 "Frisinnede Venstre"
 
  #liberal_party
  party_ppp_can_liberal_party:0 "Liberal Party of Canada"
@@ -110,6 +114,10 @@
  party_ppp_freedom_and_accord_party:0 "Hürriyet ve İtilaf Partisi"
  party_ppp_progressive_republican_party:0 "Terakkiperver Cumhuriyet Partisi"
  party_ppp_liberal_democrats:0 "Freisinnig-Demokratische Partei"
+ party_ppp_nationalliberale:0 "De Nationalliberale"
+ party_ppp_moderate_venstre:0 "Moderate Venstre"
+ party_ppp_frisinnade:0 "Frisinnade landsföreningen"
+ party_ppp_folkpartiet:0 "Folkpartiet liberalerna"
 
  #military_party
  party_ppp_usaf_party:0 "American Party"
@@ -131,6 +139,10 @@
  party_ppp_partij_van_strijders:0 "Partij van Strijders"
  party_ppp_mesrutiyet:0 "Millî Meşrutiyet Partisi"
  party_ppp_bewegung:0 "Republikanische Bewegung"
+ party_ppp_dansk_nationalparti:0 "Dansk Nationalparti"
+ party_ppp_nationalistpartiet:0 "Nationalistpartiet"
+ party_ppp_nasjonalpartiet:0 "Nasjonalpartiet"
+ party_ppp_social_liberal_party:0 "Radikale Venstre"
 
  #radical_party
  party_ppp_can_radical:0 "Progressive Party of Canada"
@@ -160,6 +172,9 @@
  party_ppp_hizb:0 "Hizb-i Terakki"
  party_ppp_cumhuriyet_halk:0 "Cumhuriyet Halk Partisi"
  party_ppp_sozialpolitische_gruppe:0 "Sozialpolitische Gruppe"
+ party_ppp_social_liberal_party:0 "Radikale Venstre"
+ party_ppp_radikala:0 "Radikala landsföreningen"
+ party_ppp_radical_peoples_party:0 "Radikale Folkeparti"
 
  #religious_party
  party_ppp_christian_heritage_party:0 "Protestant Protective Association"
@@ -180,6 +195,8 @@
  party_ppp_christian_peoples_party:0 "Christene Volkspartij"
  party_ppp_selamet-i:0 "Selamet-i Osmaniye Partisi"
  party_ppp_catholic_right:0 "Katholisch Partei der Schweiz"
+ party_ppp_kristelig_parti:0 "Kristelig Parti"
+ party_ppp_ministerpartiet:0 "Ministerpartiet"
 
  #social_democrats_party
  party_ppp_laborist_party:0 "Partido Laborista"
@@ -201,6 +218,9 @@
  party_ppp_belgian_workers_party:0 "Parti ouvrier belge"
  party_ppp_sosyal_demokrat:0 "Sosyal Demokrat Partisi"
  party_ppp_sozialdemokratische:0 "Sozialdemokratische Partei der Schweiz"
+ party_ppp_socialdemokratiske:0 "Socialdemokratiske Parti"
+ party_ppp_socialdemokratiska:0 "Socialdemokratiska arbetareparti"
+ party_ppp_arbeiderpartiet:0 "Arbeiderpartiet"
 
 
  #communist_party
@@ -233,6 +253,9 @@
  party_ppp_bel_com:0 "Parti Communiste de Belgique"
  party_ppp_tur_com:0 "Türkiye Komünist Partisi"
  party_ppp_kps:0 "Kommunistische Partei der Schweiz"
+ party_ppp_nkp:0 "Norges Kommunistiske Parti"
+ party_ppp_dkp:0 "Danmarks Kommunistiske Parti"
+ party_ppp_skp:0 "Sveriges kommunistiska parti"
 
  #agrarian_party
  party_non_partisan:0 "Non-Partisan League"
@@ -254,6 +277,10 @@
  party_ppp_boeren_partij:0 "Boeren Partij"
  party_ppp_cemiyeti:0 "Çiftçiler Cemiyeti Partisi"
  party_ppp_burgerpartei:0 "Bauern, Gewerbe und Bürgerpartei"
+ party_ppp_free_peoples_party:0 "Frie Folkeparti"
+ party_ppp_farmers_league:0 "Bondeförbundet"
+ party_ppp_centerpartiet:0 "Centerpartiet"
+ party_ppp_farmers_party:0 "Bondepartiet"
 
  #anarchist_party
  party_ppp_iww:0 "Industrial Workers of the World"
@@ -276,3 +303,5 @@
  party_ppp_bel_anarchy:0 "Groupement Communiste Libertaire"
  party_ppp_tur_anarchy:0 "Selanik Sosyalist İşçi Federasyonu"
  party_ppp_swi_anarchy:0 "Arbeiterbund der Schweiz"
+ party_ppp_young_socialists:0 "Ung Socialistisk Forbund"
+ party_ppp_swe_anarchy:0 "Sveriges Arbetares Centralorganisation"

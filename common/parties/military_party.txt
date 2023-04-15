@@ -5,6 +5,24 @@ military_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+				desc = party_ppp_dansk_nationalparti
+					trigger = {
+						country_has_primary_culture = cu:danish
+					}
+				}
+			triggered_desc = {
+				desc = party_ppp_nationalistpartiet
+					trigger = {
+						country_has_primary_culture = cu:swedish
+					}
+				}
+			triggered_desc = {
+				desc = party_ppp_nasjonalpartiet
+					trigger = {
+						country_has_primary_culture = cu:norwegian
+					}
+				}
+			triggered_desc = {
 				desc = party_ppp_mesrutiyet
 					trigger = {
 						exists = c:TUR

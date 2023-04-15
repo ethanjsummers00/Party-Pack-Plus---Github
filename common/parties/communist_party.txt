@@ -347,7 +347,7 @@
 				}
 			}
 			triggered_desc = {
-				desc = party_nkp
+				desc = party_ppp_nkp
 				trigger = {
 					exists = c:NOR
 					THIS = c:NOR
@@ -360,7 +360,7 @@
 				}
 			}
 			triggered_desc = {
-				desc = party_dkp
+				desc = party_ppp_dkp
 				trigger = {
 					exists = c:DEN
 					THIS = c:DEN
@@ -373,7 +373,7 @@
 				}
 			}
 			triggered_desc = {
-				desc = party_skp
+				desc = party_ppp_skp
 				trigger = {
 					exists = c:SWE
 					THIS = c:SWE

@@ -144,10 +144,20 @@ liberal_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_peoples_party
+				desc = party_ppp_frisinnade
 				trigger = {
-					exists = c:SWE
-					THIS = c:SWE
+					country_has_primary_culture = cu:swedish
+					OR = {
+						NOT = { has_law = law_type:law_census_voting }
+						NOT = { has_law = law_type:law_universal_suffrage }
+						NOT = { has_law = law_type:law_anarchy }
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_folkpartiet
+				trigger = {
+					country_has_primary_culture = cu:swedish
 				}
 			}
 			triggered_desc = {
@@ -355,6 +365,24 @@ liberal_party = {
 					country_has_primary_culture = cu:norwegian
 				}
 			}
+			triggered_desc = {
+				desc = party_ppp_nationalliberale
+				trigger = {
+					country_has_primary_culture = cu:danish
+					OR = {
+						NOT = { has_law = law_type:law_census_voting }
+						NOT = { has_law = law_type:law_universal_suffrage }
+						NOT = { has_law = law_type:law_anarchy }
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_moderate_venstre
+				trigger = {
+					country_has_primary_culture = cu:danish
+				}
+			}
+			
 			triggered_desc = {
 				desc = party_liberal
 				trigger = {

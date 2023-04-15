@@ -5,6 +5,12 @@ anarchist_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+				desc = party_ppp_swe_anarchy
+				trigger = {
+					country_has_primary_culture = cu:swedish
+				}
+			}
+			triggered_desc = {
 				desc = party_ppp_tur_anarchy
 				trigger = {
 					exists = c:TUR
@@ -170,7 +176,7 @@ anarchist_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_young_socialists
+				desc = party_ppp_young_socialists
 				trigger = {
 					OR = {
 						country_has_primary_culture = cu:norwegian

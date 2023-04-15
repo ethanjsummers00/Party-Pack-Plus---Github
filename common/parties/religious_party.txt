@@ -6,6 +6,18 @@ religious_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+				desc = party_ppp_kristelig_parti
+				trigger = {
+					country_has_primary_culture = cu:danish
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_ministerpartiet
+				trigger = {
+					country_has_primary_culture = cu:swedish
+				}
+			}
+			triggered_desc = {
 				desc = party_ppp_selamet-i
 					trigger = {
 						exists = c:TUR

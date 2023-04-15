@@ -199,10 +199,26 @@ free_trade_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_old_lantmanna_party
+				desc = party_ppp_frihandelspartiet
 				trigger = {
-					exists = c:SWE
-					THIS = c:SWE
+					country_has_primary_culture = cu:swedish
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_erhvervspartiet
+				trigger = {
+					country_has_primary_culture = cu:danish
+					OR = {
+						NOT = { has_law = law_type:law_census_voting }
+						NOT = { has_law = law_type:law_universal_suffrage }
+						NOT = { has_law = law_type:law_anarchy }
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_reform_venstre
+				trigger = {
+					country_has_primary_culture = cu:danish
 				}
 			}
 			triggered_desc = {
@@ -228,7 +244,7 @@ free_trade_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_free_minded_venstre
+				desc = party_ppp_free_minded_venstre
 				trigger = {
 					country_has_primary_culture = cu:norwegian
 				}

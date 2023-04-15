@@ -6,6 +6,12 @@ radical_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+				desc = party_ppp_radikala
+				trigger = {
+					country_has_primary_culture = cu:swedish
+				}
+			}
+			triggered_desc = {
 				desc = party_ppp_can_radical
 				trigger = {
 					country_has_primary_culture = cu:anglo_canadian
@@ -233,6 +239,7 @@ radical_party = {
 						exists = c:USA
 						THIS = c:USA
 				}
+				}
 			}
 			triggered_desc = {
 				desc = party_radical_liberal_party
@@ -322,13 +329,13 @@ radical_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_radical_peoples_party
+				desc = party_ppp_radical_peoples_party
 				trigger = {
 					country_has_primary_culture = cu:norwegian
 				}
 			}
 			triggered_desc = {
-				desc = party_social_liberal_party
+				desc = party_ppp_social_liberal_party
 				trigger = {
 					country_has_primary_culture = cu:danish
 				}
