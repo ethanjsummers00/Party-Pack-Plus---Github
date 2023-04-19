@@ -235,10 +235,8 @@ radical_party = {
 			triggered_desc = {
 				desc = party_progressive_party
 				trigger = {
-					OR = {
-						exists = c:USA
-						THIS = c:USA
-				}
+					exists = c:USA
+					THIS = c:USA
 				}
 			}
 			triggered_desc = {
@@ -266,8 +264,8 @@ radical_party = {
 				desc = party_ppp_parti_rouge
 				trigger = {
 					country_has_primary_culture = cu:franco_canadian
-					NOT = { exists = c:CAN
-							THIS = c:CAN }
+					NOT = { exists = c:CAN }
+					NOT = { THIS = c:CAN }
 				}
 			}
 			triggered_desc = {
