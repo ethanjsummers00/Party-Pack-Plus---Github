@@ -6,6 +6,20 @@ radical_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+				desc = party_ppp_hyeophoe
+				trigger = {
+					exists = c:KOR
+					THIS = c:KOR
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_toyo
+				trigger = {
+					exists = c:JAP
+					THIS = c:JAP
+				}
+			}
+			triggered_desc = {
 				desc = party_ppp_radikala
 				trigger = {
 					country_has_primary_culture = cu:swedish
@@ -184,11 +198,18 @@ radical_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_revive_china_society
+				desc = party_ppp_revive_china_society
 				trigger = {
 					exists = c:CHI
 					THIS = c:CHI
 					has_law = law_type:law_monarchy
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_tongmenghui
+				trigger = {
+					exists = c:CHI
+					THIS = c:CHI
 				}
 			}
 			triggered_desc = {
@@ -235,10 +256,8 @@ radical_party = {
 			triggered_desc = {
 				desc = party_progressive_party
 				trigger = {
-					OR = {
-						exists = c:USA
-						THIS = c:USA
-				}
+					exists = c:USA
+					THIS = c:USA
 				}
 			}
 			triggered_desc = {

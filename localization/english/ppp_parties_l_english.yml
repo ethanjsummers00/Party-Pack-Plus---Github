@@ -23,6 +23,9 @@
  party_ppp_dnsap:0 "Danmarks Nationalsocialistiske Arbejderparti"
  party_ppp_national_league_of_sweden:0 "Sveriges nationella förbund"
  party_ppp_nasjonal_samling:0 "Nasjonal Samling"
+ party_ppp_blue_shirts_society:0 "Sānmínzhǔyì Lìxíng Shè"
+ party_ppp_yokusankai:0 "Taisei Yokusankai"
+ party_ppp_jayudang:0 "Jayudang"
 
  #conservative_party
  party_ppp_can_conservative_party:0 "Conservative Party of Canada"
@@ -56,6 +59,11 @@
  party_ppp_konservative_folkeparti:0 "Konservative Folkeparti"
  party_ppp_lantmanna_party:0 "Lantmannapartiet"
  party_ppp_samlingspartiet:0 "Moderata samlingspartiet"
+ party_ppp_constitutional_association:0 "Jìxù Xiànzhèng Xiéhuì"
+ party_ppp_kuomintang:0 "Kuomintang"
+ party_ppp_seiyukai:0 "Rikken Teiseitō"
+ party_ppp_taiseito:0 "Rikken Seiyūkai"
+ party_ppp_bosuhyeobhoe:0 "Bosuhyeobhoe"
 
  #free_trade_party
  party_ppp_unionist_party:0 "Unionist Party"
@@ -86,6 +94,10 @@
  party_ppp_erhvervspartiet:0 "Erhvervspartiet"
  party_ppp_reform_venstre:0 "Reform Venstre"
  party_ppp_free_minded_venstre:0 "Frisinnede Venstre"
+ party_ppp_doshikai:0 "Kokumin Doshikai"
+ party_ppp_kaishinto:0 "Rikken Kaishintō"
+ party_ppp_communications_clique:0 "Jiaotongxi"
+ party_ppp_jinbojeongdang:0 "Jinbojeongdang"
 
  #liberal_party
  party_ppp_can_liberal_party:0 "Liberal Party of Canada"
@@ -118,6 +130,11 @@
  party_ppp_moderate_venstre:0 "Moderate Venstre"
  party_ppp_frisinnade:0 "Frisinnade landsföreningen"
  party_ppp_folkpartiet:0 "Folkpartiet liberalerna"
+ party_ppp_rikken_minseito:0 "Rikken Minseitō"
+ party_ppp_kenseito:0 "Kenseitō"
+ party_ppp_empire_reform_association:0 "Baohuang Hui"
+ party_ppp_jinbudang:0 "Jìnbùdǎng"
+ party_ppp_gaehwadang:0 "Gaehwadang"
 
  #military_party
  party_ppp_usaf_party:0 "American Party"
@@ -143,6 +160,10 @@
  party_ppp_nationalistpartiet:0 "Nationalistpartiet"
  party_ppp_nasjonalpartiet:0 "Nasjonalpartiet"
  party_ppp_social_liberal_party:0 "Radikale Venstre"
+ party_ppp_imperial_way_party:0 "Kōdōha"
+ party_ppp_imperial_clan_party:0 "Zōng She Dǎng"
+ party_ppp_tuchun:0 "Tuchun Jítuán"
+ party_ppp_daehan:0 "Daehan-Ingugminhoe"
 
  #radical_party
  party_ppp_can_radical:0 "Progressive Party of Canada"
@@ -175,6 +196,10 @@
  party_ppp_social_liberal_party:0 "Radikale Venstre"
  party_ppp_radikala:0 "Radikala landsföreningen"
  party_ppp_radical_peoples_party:0 "Radikale Folkeparti"
+ party_ppp_toyo:0 "Tōyō Jiyūtō"
+ party_ppp_revive_china_society:0 "Xīngzhōnghuì"
+ party_ppp_tongmenghui:0 "Zhōngguó Tóngménghuì"
+ party_ppp_hyeophoe:0 "Dongnip Hyeophoe"
 
  #religious_party
  party_ppp_christian_heritage_party:0 "Protestant Protective Association"
@@ -197,6 +222,9 @@
  party_ppp_catholic_right:0 "Katholisch Partei der Schweiz"
  party_ppp_kristelig_parti:0 "Kristelig Parti"
  party_ppp_ministerpartiet:0 "Ministerpartiet"
+ party_ppp_tiandihui:0 "Tiandihui"
+ party_ppp_bukkyo:0 "Bukkyō Kyōkai"
+ party_ppp_silhak:0 "Silhak"
 
  #social_democrats_party
  party_ppp_laborist_party:0 "Partido Laborista"
@@ -221,6 +249,10 @@
  party_ppp_socialdemokratiske:0 "Socialdemokratiske Parti"
  party_ppp_socialdemokratiska:0 "Socialdemokratiska arbetareparti"
  party_ppp_arbeiderpartiet:0 "Arbeiderpartiet"
+ party_ppp_rodonominto:0 "Rōdōnōmintō"
+ party_ppp_nihon_taishuto:0 "Nihon Taishūtō"
+ party_ppp_nonggong:0 "Nónggōng Mínzhǔ Dǎng"
+ party_ppp_inmindang:0 "Joseon-Inmindang"
 
 
  #communist_party
@@ -256,6 +288,9 @@
  party_ppp_nkp:0 "Norges Kommunistiske Parti"
  party_ppp_dkp:0 "Danmarks Kommunistiske Parti"
  party_ppp_skp:0 "Sveriges kommunistiska parti"
+ party_ppp_jcp:0 "Nihon Kyōsan-tō"
+ party_ppp_ccp:0 "Zhōngguó Gòngchǎndǎng"
+ party_ppp_kor_com:0 "Joseonlodongdang"
 
  #agrarian_party
  party_non_partisan:0 "Non-Partisan League"
@@ -281,6 +316,9 @@
  party_ppp_farmers_league:0 "Bondeförbundet"
  party_ppp_centerpartiet:0 "Centerpartiet"
  party_ppp_farmers_party:0 "Bondepartiet"
+ party_ppp_nominto:0 "Nihon Nōmintō"
+ party_ppp_dang:0 "Mínzhǔ Dǎng"
+ party_ppp_hangugminjudang:0 "Hangugminjudang"
 
  #anarchist_party
  party_ppp_iww:0 "Industrial Workers of the World"
@@ -305,3 +343,6 @@
  party_ppp_swi_anarchy:0 "Arbeiterbund der Schweiz"
  party_ppp_young_socialists:0 "Ung Socialistisk Forbund"
  party_ppp_swe_anarchy:0 "Sveriges Arbetares Centralorganisation"
+ party_ppp_jap_anarchy:0 "Shakai Kakumei Tō"
+ party_ppp_chi_anarchy:0 "Zhīnà Anshā Tuán"
+ party_ppp_kor_anarchy:0 "Daehan-Inminhoe"

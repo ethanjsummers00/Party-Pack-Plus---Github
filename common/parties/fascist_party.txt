@@ -3,6 +3,13 @@
 	name = {
 		first_valid = {
 			triggered_desc = {
+				desc = party_ppp_jayudang
+				trigger = {
+					exists = c:KOR
+					THIS = c:KOR
+				}
+			}
+			triggered_desc = {
 				desc = party_ppp_teceddut
 				trigger = {
 					exists = c:TUR
@@ -253,7 +260,7 @@
 				}
 			}
 			triggered_desc = {
-				desc = party_national_citizens_alliance
+				desc = party_ppp_yokusankai
 				trigger = {
 					country_has_primary_culture = cu:japanese
 				}
@@ -268,7 +275,7 @@
 				}
 			}
 			triggered_desc = {
-				desc = party_blue_shirts_society
+				desc = party_ppp_blue_shirts_society
 				trigger = {
 					OR = {
 						country_has_primary_culture = cu:han

@@ -6,6 +6,13 @@ liberal_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+				desc = party_ppp_gaehwadang
+				trigger = {
+					exists = c:KOR
+					THIS = c:KOR
+				}
+			}
+			triggered_desc = {
 				desc = party_ppp_parliamentary_party
 				trigger = {
 					exists = c:IRE
@@ -224,11 +231,18 @@ liberal_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_empire_reform_association
+				desc = party_ppp_empire_reform_association
 				trigger = {
 					exists = c:CHI
 					THIS = c:CHI
 					has_law = law_type:law_monarchy
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_jinbudang
+				trigger = {
+					exists = c:CHI
+					THIS = c:CHI
 				}
 			}
 			triggered_desc = {
@@ -248,7 +262,18 @@ liberal_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_constitutional_reform_party
+				desc = party_ppp_rikken_minseito
+				trigger = {
+					exists = c:JAP
+					THIS = c:JAP
+					OR = {
+							has_law = law_type:law_census_voting
+							has_law = law_type:law_universal_suffrage
+						}
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_kenseito
 				trigger = {
 					exists = c:JAP
 					THIS = c:JAP

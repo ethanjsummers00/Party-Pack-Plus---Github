@@ -3,6 +3,19 @@
 	name = {
 		first_valid = {
 			triggered_desc = {
+				desc = party_ppp_kor_com
+				trigger = {
+					exists = c:KOR
+					THIS = c:KOR
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
 				desc = party_ppp_tur_com
 				trigger = {
 					exists = c:TUR
@@ -451,10 +464,23 @@
 				}
 			}
 			triggered_desc = {
-				desc = party_jcp
+				desc = party_ppp_jcp
 				trigger = {
 					exists = c:JAP
 					THIS = c:JAP
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_ccp
+				trigger = {
+					exists = c:CHI
+					THIS = c:CHI
 					any_interest_group = {
 						is_powerful = yes
 						leader = {

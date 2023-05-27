@@ -6,6 +6,13 @@ conservative_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+				desc = party_ppp_bosuhyeobhoe
+				trigger = {
+					exists = c:KOR
+					THIS = c:KOR
+				}
+			}
+			triggered_desc = {
 				desc = party_ppp_committee_of_union_and_progress
 				trigger = {
 					exists = c:TUR
@@ -237,11 +244,28 @@ conservative_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_imperial_rule_party
+				desc = party_ppp_kuomintang
+				trigger = {
+					exists = c:CHI
+					THIS = c:CHI
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_seiyukai
 				trigger = {
 					exists = c:JAP
 					THIS = c:JAP
-					has_law = law_type:law_monarchy
+					OR = {
+							has_law = law_type:law_census_voting
+							has_law = law_type:law_universal_suffrage
+						}
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_taiseito
+				trigger = {
+					exists = c:JAP
+					THIS = c:JAP
 				}
 			}
 			triggered_desc = {

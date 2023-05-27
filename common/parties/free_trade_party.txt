@@ -6,6 +6,31 @@ free_trade_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+				desc = party_ppp_jinbojeongdang
+				trigger = {
+					exists = c:KOR
+					THIS = c:KOR
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_doshikai
+				trigger = {
+					exists = c:JAP
+					THIS = c:JAP
+					OR = {
+							has_law = law_type:law_census_voting
+							has_law = law_type:law_universal_suffrage
+						}
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_kaishinto
+				trigger = {
+					exists = c:JAP
+					THIS = c:JAP
+				}
+			}
+			triggered_desc = {
 				desc = party_ppp_hurriyet_partisi
 					trigger = {
 						exists = c:TUR
@@ -222,7 +247,7 @@ free_trade_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_communications_clique
+				desc = party_ppp_communications_clique
 				trigger = {
 					exists = c:CHI
 					THIS = c:CHI

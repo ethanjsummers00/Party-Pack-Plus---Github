@@ -5,6 +5,27 @@ anarchist_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+				desc = party_ppp_kor_anarchy
+				trigger = {
+					exists = c:KOR
+					THIS = c:KOR
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_jap_anarchy
+				trigger = {
+					exists = c:JAP
+					THIS = c:JAP
+				}
+			}
+			triggered_desc = {
+				desc = party_ppp_chi_anarchy
+				trigger = {
+					exists = c:CHI
+					THIS = c:CHI
+				}
+			}
+			triggered_desc = {
 				desc = party_ppp_swe_anarchy
 				trigger = {
 					country_has_primary_culture = cu:swedish
